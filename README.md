@@ -1,0 +1,3 @@
+# Next.js useEffect Bug
+
+This repository demonstrates a bug in Next.js where `useEffect` hooks might trigger even if the component has unmounted, potentially leading to unexpected behavior or errors. The problem mainly occurs in situations involving data fetching where the component unmounts before the asynchronous operation completes. This is particularly problematic for asynchronous actions like fetching data from an API.
